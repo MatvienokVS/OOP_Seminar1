@@ -26,9 +26,9 @@ public class Main {
         System.out.println(vending.getProduct("Orange"));
         System.out.println(vending.getProduct("Banana"));
 
-        System.out.println(vending.getProduct(1L));
-        System.out.println(vending.getProduct(2L));
-        System.out.println(vending.getProduct(5L));
+//        System.out.println(vending.getProduct(1L));
+//        System.out.println(vending.getProduct(2L));
+//        System.out.println(vending.getProduct(5L));
 
         vending = new CoffeVending();
 

@@ -17,20 +17,20 @@ public abstract class Vending {
 
     Product getProduct(String kind) {
         for (Product product : list) {
-            if (kind.equals(product.getKind())) ;      {
+            if (kind.equals(product.getKind())) {
                 return product;
             }
         }
         return null;
     }
 
-    Product getProduct(Long id) {
-        for (Product product : list) {
-            if (id.equals(product.getId())) ; {
-                return product;
-            }
-        }
-        return null;
-    }
+//    Product getProduct(Long id) {
+//        for (Product product : list) {
+//            if (id.equals(product.getId())) {
+//                return product;
+//            }
+//        }
+//        return null;
+//    }
 
 }

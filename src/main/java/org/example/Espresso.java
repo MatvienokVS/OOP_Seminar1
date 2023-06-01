@@ -8,6 +8,6 @@ public class Espresso extends ProductDrink {
 
     @Override
     public String toString() {
-        return String.format("У Эспрессо: %s, %s, %s, %s", getKind(), getPrice(), getId(), getTemp());
+        return String.format("У Эспрессо: %s, %s, %s, %s", ""getKind(), getPrice(), getId(), getTemp());
     }
 }
