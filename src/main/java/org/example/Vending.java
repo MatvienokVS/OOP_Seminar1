@@ -17,8 +17,7 @@ public abstract class Vending {
 
     Product getProduct(String kind) {
         for (Product product : list) {
-            if (kind.equals(product.getKind())) ;
-            {
+            if (kind.equals(product.getKind())) ;      {
                 return product;
             }
         }
@@ -27,8 +26,7 @@ public abstract class Vending {
 
     Product getProduct(Long id) {
         for (Product product : list) {
-            if (id.equals(product.getId())) ;
-            {
+            if (id.equals(product.getId())) ; {
                 return product;
             }
         }

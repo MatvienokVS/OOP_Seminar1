@@ -30,7 +30,7 @@ public class Main {
         System.out.println(vending.getProduct(2L));
         System.out.println(vending.getProduct(5L));
 
-        Vending vending1 = new CoffeVending();
+        vending = new CoffeVending();
 
         Product drink1 = new Espresso("Espresso", 40, 1L, 70);
         Product drink2 = new Amerikano("Amerikano", 100, 2L, 100);

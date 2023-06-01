@@ -3,7 +3,7 @@ package org.example;
 public class Espresso extends ProductDrink {
 
     public Espresso(String kind, double price, Long id, int temp) {
-        super(kind, price, id);
+        super(kind, price, id, temp);
     }
 
     @Override
